@@ -1,0 +1,22 @@
+server:
+  port: 8401
+spring:
+  application:
+    name: cloudalibaba-sentinel-service
+  cloud:
+    nacos:
+      discovery:
+        #nacos服务注册中心
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        #默认8719端口，加入被占用会自动从8719依次+1扫描，直到找到未占用端口
+        port: 8719
+      filter:
+        enabled: false    # false关闭springmvc端点保护
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

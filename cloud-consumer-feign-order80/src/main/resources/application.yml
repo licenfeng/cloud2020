@@ -1,0 +1,28 @@
+server:
+  port: 80
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      #      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7001.com:7001/eureka/
+
+#设置fegin客户端超时时间（open Feign默认支持ribbon）
+ribbon:
+  #指出建立连接所用的使劲按，适用于网络状况正常的情况下，两端连接所用的时间
+  ReadTimeout: 5000
+  #指的是建立链接后从服务器读取到可用资源所用的时间
+  ConnectTimeout: 5000
+
+spring:
+  application:
+    name: cloud-feign-order-server
+
+debug: true
+
+logging:
+  level:
+    com.atguigu.springcloud.service.PaymentService: debug

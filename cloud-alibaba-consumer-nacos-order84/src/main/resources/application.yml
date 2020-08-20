@@ -1,0 +1,39 @@
+server:
+  port: 84
+
+spring:
+  application:
+    name: nacos-order-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+      #sentinel持久化
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            dataId: cloudalibaba-sentinel-service
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
+
+#消费者将要去访问的微服务名称（注册成功进nacos的微服务提供者）
+service-url:
+  nacos-user-service: http://nacos-payment-provider
+
+#激活sentinel对feign的支持
+feign:
+  sentinel:
+    enabled: true
+
+#feign 增强日志
+logging:
+  level:
+    com.atguigu.springcloud.alibaba.service.PaymentService: debug
+
+debug: true

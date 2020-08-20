@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9004/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-provider-payment9004/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-seata-account-service2002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-seata-account-service2002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-seata-order-service2001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-seata-storage-service2003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-feign-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-order80zk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-server7002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-gateway9527/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8004zk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8004zk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provoider8801/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
